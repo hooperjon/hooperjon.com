@@ -1,25 +1,50 @@
-<DOCTYPE! HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <title> hooperjon.com </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-
-    <h1> Test </h1>
-    <div class="container">
-      <div id="nav">
-        <ul class="topnav">
-          <li><a class="active" href="index.html">About</a></li>
-          <li><a href="news.asp">Video</a></li>
-          <li><a href="contact.asp">Music</a></li>
+<body>
+  <h1>hooperjon.com</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="navi">
+        <ul>
+          <div class="col-md-4">
+            <li class="active">Home</li>
+          </div>
+          <div class="col-md-4">
+            <li>Media</li>
+          </div>
+          <div class="col-md-4">
+            <li>About</li>
+          </div>
         </ul>
       </div>
     </div>
-    <div id="content">
-      <div class="wrap">Content</div>
+    <div class="row">
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+      <div class="col-*-*"></div>
+    </div>
+    <div class="row">
     </div>
 
-  </body>
+    <h2>Welcome</h2>
+    <p>Watch this.</p>
+    <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-WUF8EM3zLw"></iframe>
+    </div>
+  </div>
+
+</body>
+
+</html>

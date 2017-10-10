@@ -1,54 +1,37 @@
 body {
   margin: 0;
+  font: sans-serif;
 }
 
-.container {
-  width: 980px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.nav {
-  float: left;
-  text-align: left;
-}
-
-ul {
-  list-style-type: none;
+ul #navi {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #ffffff;
+  list-style-type: none;
 }
 
-ul.topnav li {
-  float: left;
+ul #navi li {
+  display: inline-block;
 }
 
-ul.topnav li a {
-  display: block;
-  color: #888888;
+li {
+  display: inline-block;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
-/* Change the link color to #111 (black) on hover */
-
-ul.topnav li a:hover {
-  background-color: #f2c232;
+.col-md-4:hover {
+  background-color: #e9c237;
 }
 
-ul.topnav li.right {
-  float: right;
+#navi .col-md-4 {
+  text-align: center;
 }
 
-ul.topnav li a.active {
-  color: #e86f00;
+.active {
+  color: #eb7d17;
 }
 
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, ul.topnav li {
-    float: none;
-  }
+h1 {
+  text-align: center;
 }
